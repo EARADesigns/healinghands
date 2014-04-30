@@ -1,0 +1,273 @@
+
+/* 
+    Created on : Jan 27, 2014, 12:00:58 PM
+    Author     : Eamon
+*/
+
+body{
+    background:url("../img/background.jpg") no-repeat top center;
+
+    font:14px Tahoma;
+}
+.wrapper
+{
+    width:921px;
+    margin:0 auto;
+
+    height:500px;   
+}
+.website-title
+{
+    font:14px Tahoma;
+    font-weight: bold;
+}
+.website-title a
+{
+    color:#385D87;
+    text-decoration: none;
+    height:64px;
+    line-height: 76px;
+    width:208px;
+    float:left;  
+}
+.right
+{
+    float:right;
+
+}
+.left
+{
+    float:left;
+}
+.connect
+{
+    width:184px;
+    margin-top:18px;
+
+}
+.enquire-button
+{
+width: 110px;
+height: 31px;
+background: #385D87;
+color: white;
+line-height: 29px;
+border-radius: 5px;
+text-align: center;
+font-size: 13px;
+cursor: pointer;
+margin-top: 0px;
+}
+#slider
+{
+    height:303px;
+    width:100%;
+
+}
+nav ul
+{
+    diplay:inline;
+}
+nav ul li
+{
+    float:left;
+    width:114px;
+    height:31px;
+    font-size: 12px;
+    color:white;
+    font-weight: bold;
+    text-align:center;
+    padding-top:5px;
+    border-right:1px solid white;
+}
+nav ul li:first-child
+{
+    padding-top: 10px;
+    height:26px;
+}
+nav ul li:last-child
+{
+    padding-top:10px;
+    height:26px;
+}
+nav ul li:hover
+{
+    background:#315175;
+    cursor:pointer;
+}
+nav ul li a
+{
+    display:block;
+    width:100%;
+    height:100%;
+}
+.fixedwidthcontent
+{
+    width:637px;
+    margin-top:33px;
+    padding-right:10px;
+    font: 12px tahoma, Arial, Helvetica, sans-serif;
+
+}
+.fixedwidthcontent > h2
+{
+    margin-top:22px;
+}
+.fixedwidthcontent > h1
+{
+    color:#385d87;
+    font-family: Trebuchet MS!important;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+hr.heading
+{
+    margin-top:16px;
+}
+.fixedwidthcol
+{
+    width:260px;
+    margin-top:14px;
+    margin-left:10px;
+}
+#content
+{
+    background: #fff url(../img/overlay.png) repeat-x;
+}
+.contentinner
+{
+    padding-left:10px;
+    padding-right: 10px;
+    margin: 0px 10px 10px 0px;
+    font: 14px tahoma, Arial, Helvetica, sans-serif;
+}
+.contentinner ul
+{
+    padding-left:30px;
+    padding-top:10px;
+}
+.contentinner ul li
+{
+    padding-top:8px;
+    padding-bottom: 8px;
+    list-style-type: disc;
+    list-style-color: #444;
+}
+
+.caroufredsel_wrapper
+{
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(50, 50, 50, 0.44);
+    -moz-box-shadow:    0px 0px 5px 2px rgba(50, 50, 50, 0.44);
+    box-shadow:         0px 0px 5px 2px rgba(50, 50, 50, 0.44);
+}
+.addtext
+{
+    font: 22px Georgia,"Times New Roman", Times, serif;
+    color: #444;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+.contentfooterbar
+{
+    height:30px;
+    background:#385D87;
+    width:100%;
+    margin-top:30px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-weight:bold;
+    font-size: 12px;
+}
+input[type=submit]
+{
+    background-color: #385D87;
+    padding:7px 10px;
+    color:white;
+    border-radius: 7px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+}
+.bottom-buttons
+{
+    text-align: center;
+    margin-top:30px;
+    margin-bottom:10px;
+}
+.imgborder
+{
+    padding:6px;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(50, 50, 50, 0.44);
+    -moz-box-shadow:    0px 0px 5px 2px rgba(50, 50, 50, 0.44);
+    box-shadow:         0px 0px 5px 2px rgba(50, 50, 50, 0.44);
+    margin:10px;
+
+}
+.texthed
+{
+    width: 215px;
+    height: 126px;
+    text-align: center;
+    float: left;
+    margin-left: 87px;
+    margin-top: 68px;
+    font-size: 22px;
+	font-family: Arial;
+    color: #444;
+	
+}
+a:link
+{
+    color:white;
+    text-decoration: none;
+}
+a:visited
+{
+    color:white;
+    text-decoration: none;
+}
+/*
+.active
+{
+    background:#315175;
+}
+*/
+.likediv
+{
+    padding-right:10px;
+}
+.fb
+{
+    display:inline-block;
+    float:left;
+    height:30px;
+    background: url("../img/fbimg.png");
+    width:30px;
+ 
+}
+.fb:hover
+{
+background-position: 0px -30px;
+
+
+}
+.twt
+{
+     display:inline-block;
+    float:left;
+    height:30px;
+    background: url("../img/timg.png");
+    width:30px;
+   margin-left:5px;
+}
+.twt:hover
+{
+    background-position: 0px -30px; 
+}
+.txtlt
+{
+    color:#666;
+}
